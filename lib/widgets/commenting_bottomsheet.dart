@@ -87,12 +87,13 @@ Future<Widget?> commentingbottomsheet(final BuildContext context) async {
                     );
                     await intent.launch();
                     await AppRate.setRateGiven();
-                    if (ctx.mounted) {
-                      Navigator.of(ctx).pop();
-                    }
                   } catch (e) {
                     if (kDebugMode) {
                       print(e.toString());
+                    }
+                  } finally {
+                    if (ctx.mounted) {
+                      Navigator.of(ctx).pop();
                     }
                   }
                 },

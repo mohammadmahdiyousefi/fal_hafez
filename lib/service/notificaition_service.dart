@@ -54,7 +54,7 @@ class LocalNotifications {
           await launchUrl(url, mode: LaunchMode.externalApplication);
         }
       } else if (event['type'] == 'update') {
-        final String downloadUrl = StoreIntent.statusDownloaderUrl;
+        final String downloadUrl = StoreIntent.falHafezUrl;
         final Uri url = Uri.parse(downloadUrl);
         if (await canLaunchUrl(url)) {
           await launchUrl(url);

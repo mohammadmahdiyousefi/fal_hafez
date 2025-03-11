@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699966353645",
+    "project_id": "fal-hafez-6f98c",
+    "storage_bucket": "fal-hafez-6f98c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699966353645:android:042c54cc63dbb77f9d5ce4",
+        "android_client_info": {
+          "package_name": "com.app.fal_hafez"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU3xfmluG2WPReQ-T1dHkayiILWZdenR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
